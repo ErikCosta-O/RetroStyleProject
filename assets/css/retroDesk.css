@@ -7,7 +7,11 @@ html{
     font-style: normal;
     margin: 0;
     padding: 0;
-    background-color: #e8eddf;
+    transition: all 2s;
+}
+body{
+    background-color: #fffcf2;
+    color: #000000;
 }
 .conteu01{
     width: 90vh;
@@ -18,7 +22,6 @@ html{
     display: flex;
     justify-content: center;
     font-size: 11vh;
-    color: #252422;
     letter-spacing: 5px;
     text-shadow: 3px 2px 5px rgba(0, 0, 0, 0.32);
 }
@@ -35,7 +38,6 @@ html{
     font-style: italic;
     font-weight: 500;
     margin-top: 20px;
-    color: #252422;
     text-shadow: 3px 2px 5px rgba(0, 0, 0, 0.32);
     text-decoration: underline #eb5e28 8px;
 }
@@ -54,7 +56,6 @@ html{
     font-style: italic;
     font-weight: 500;
     margin-top: 20px;
-    color: #252422;
     text-shadow: 3px 2px 5px rgba(0, 0, 0, 0.32);
     text-decoration: underline #eb5e28 8px;
 }

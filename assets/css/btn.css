@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+.btns{
+    display: flex;
+    justify-content: left;
+    margin:  -10vh 0vh 15vh 3vh;
+}
+.btns p{
+    font-size: 2vh;
+}
+.btns button{
+    margin: 1vh;
+    width: 10vh;
+    height: 4vh;
+    cursor: pointer;
+    border: 0.60vh solid #252422;
+    border-radius: 1vh 1vh 1vh 1vh;
+    font-family: "New Amsterdam", sans-serif;
+    font-style: normal;
+    letter-spacing: 2px;
+    font-size: 2vh;
+}
+.btns button:hover{
+    transition: 0.2s;
+    transform: translate(-0.10em , -0.10em);
+}
+.btns button:active{
+    transform: translate(-0.05em , -0.05em);
+    background-color: #eb5e28;
+}
